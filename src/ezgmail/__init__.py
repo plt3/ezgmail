@@ -43,7 +43,7 @@ __version__ = "2024.12.3"
 
 
 # SCOPES = 'https://www.googleapis.com/auth/gmail.readonly' # read-only mode
-SCOPES = "https://mail.google.com/"  # read-write mode
+SCOPES = ["https://mail.google.com/"]  # read-write mode
 SERVICE_GMAIL = None
 EMAIL_ADDRESS = False  # False if not logged in, otherwise the string of the email address of the logged in user.
 LOGGED_IN = False  # False if not logged in, otherwise True
